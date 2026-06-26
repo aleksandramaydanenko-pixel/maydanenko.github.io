@@ -1,0 +1,1651 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Английский за чашкой кофе — Александра Майданенко</title>
+  <meta name="description" content="Индивидуальные онлайн-уроки английского для взрослых женщин: спокойно, бережно, без зубрёжки и страха ошибок. Преподаватель Александра Майданенко." />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+    :root {
+      --bg: #f8f1e8;
+      --bg-soft: #fffaf4;
+      --text: #2d241f;
+      --muted: #75675d;
+      --line: rgba(45, 36, 31, 0.13);
+      --accent: #c69c72;
+      --accent-dark: #9d7048;
+      --cream: #efe1d0;
+      --white: #ffffff;
+      --shadow: 0 24px 70px rgba(65, 43, 28, 0.14);
+      --radius-lg: 30px;
+      --radius-md: 22px;
+      --radius-sm: 16px;
+      --container: 1160px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Oranienbaum", "Times New Roman", Georgia, serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 8%, rgba(198, 156, 114, 0.22), transparent 32rem),
+        radial-gradient(circle at 95% 18%, rgba(239, 225, 208, 0.9), transparent 24rem),
+        linear-gradient(180deg, var(--bg) 0%, #fffaf4 42%, var(--bg) 100%);
+      line-height: 1.6;
+      min-width: 320px;
+      padding-bottom: 84px;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .container {
+      width: min(100% - 32px, var(--container));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 14px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-dark);
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+    }
+
+    h1,
+    h2 {
+      font-family: "Oranienbaum", "Times New Roman", Georgia, serif;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2.75rem, 14vw, 5.8rem);
+      max-width: 820px;
+    }
+
+    h2 {
+      font-size: clamp(2.15rem, 9vw, 4.45rem);
+    }
+
+    h3 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .lead {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #5f5148;
+    }
+
+    .btn {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 999px;
+      padding: 14px 20px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: #fffaf4;
+      box-shadow: 0 14px 34px rgba(45, 36, 31, 0.22);
+    }
+
+    .btn-primary:hover {
+      background: #1f1713;
+      box-shadow: 0 18px 42px rgba(45, 36, 31, 0.28);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.66);
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    .btn-secondary:hover {
+      background: var(--white);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: rgba(248, 241, 232, 0.82);
+      border-bottom: 1px solid rgba(45, 36, 31, 0.08);
+    }
+
+
+.nav {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--text);
+      color: #fffaf4;
+      font-size: 0.9rem;
+      font-family: "Oranienbaum", "Times New Roman", Georgia, serif;
+    }
+
+    .logo span:last-child {
+      display: none;
+    }
+
+    .desktop-nav {
+      display: none;
+    }
+
+    .menu-button {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.58);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .mobile-nav {
+      border-top: 1px solid rgba(45, 36, 31, 0.08);
+      padding: 10px 0 18px;
+    }
+
+    .mobile-nav[hidden] {
+      display: none;
+    }
+
+    .mobile-nav a {
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .hero {
+      position: relative;
+      padding: 46px 0 64px;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-copy .lead {
+      margin-top: 18px;
+      max-width: 640px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .hero-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 34px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.58);
+      border: 1px solid rgba(45, 36, 31, 0.08);
+    }
+
+    .hero-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      min-height: 390px;
+      box-shadow: var(--shadow);
+      background: var(--cream);
+      isolation: isolate;
+    }
+
+    .hero-card img {
+      width: 100%;
+      height: 390px;
+      object-fit: cover;
+    }
+
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 35%, rgba(45, 36, 31, 0.52) 100%);
+      z-index: 1;
+    }
+
+    .hero-card-caption {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      z-index: 2;
+      border-radius: 20px;
+      padding: 16px;
+      color: #fffaf4;
+      background: rgba(45, 36, 31, 0.72);
+    }
+
+    .hero-card-caption strong {
+      display: block;
+      font-size: 0.98rem;
+      margin-bottom: 4px;
+    }
+
+    .hero-card-caption span {
+      display: block;
+      font-size: 0.88rem;
+      opacity: 0.84;
+    }
+
+    section {
+      padding: 64px 0;
+    }
+
+    .proof {
+      padding: 0 0 46px;
+    }
+
+    .proof-strip {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid rgba(45, 36, 31, 0.09);
+      box-shadow: 0 16px 42px rgba(65, 43, 28, 0.07);
+    }
+
+    .proof-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      border-radius: 18px;
+      background: rgba(248, 241, 232, 0.72);
+    }
+
+    .proof-item svg {
+      width: 19px;
+      height: 19px;
+      color: var(--accent-dark);
+      flex: 0 0 auto;
+    }
+
+    .proof-item strong {
+      display: block;
+      font-size: 0.92rem;
+      line-height: 1.25;
+    }
+
+    .proof-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 2px;
+    }
+
+
+.section-head {
+      max-width: 780px;
+      margin-bottom: 28px;
+    }
+
+    .section-head.center {
+      text-align: left;
+    }
+
+    .section-head .lead {
+      margin-top: 16px;
+    }
+
+    .pain-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .pain-card {
+      padding: 22px;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.64);
+      border: 1px solid rgba(45, 36, 31, 0.1);
+      min-height: 150px;
+    }
+
+    .pain-card .number {
+      display: inline-flex;
+      margin-bottom: 18px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: var(--accent-dark);
+      letter-spacing: 0.08em;
+    }
+
+    .pain-card p {
+      margin-top: 10px;
+      font-size: 0.96rem;
+    }
+
+    .reassurance {
+      margin-top: 18px;
+      border-left: 2px solid var(--accent);
+      padding: 14px 0 14px 18px;
+      color: #5f5148;
+      font-weight: 600;
+    }
+
+    .method-wrap {
+      display: grid;
+      gap: 26px;
+      align-items: center;
+    }
+
+    .method-photo {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--cream);
+      box-shadow: var(--shadow);
+    }
+
+    .method-photo img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+    }
+
+    .method-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .method-item {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 14px;
+      padding: 16px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.66);
+      border: 1px solid rgba(45, 36, 31, 0.09);
+    }
+
+    .icon-badge {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--accent-dark);
+      background: rgba(198, 156, 114, 0.16);
+    }
+
+    .icon-badge svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .method-item p {
+      margin-top: 4px;
+      font-size: 0.94rem;
+    }
+
+    .about {
+      background: rgba(255, 250, 244, 0.58);
+      border-top: 1px solid rgba(45, 36, 31, 0.08);
+      border-bottom: 1px solid rgba(45, 36, 31, 0.08);
+    }
+
+    .about-grid {
+      display: grid;
+      gap: 26px;
+      align-items: center;
+    }
+
+    .about-photo {
+      border-radius: 34px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: var(--cream);
+    }
+
+    .about-photo img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+    }
+
+    .about-copy {
+      padding: 2px 0;
+    }
+
+    .quote-box {
+      margin-top: 22px;
+      padding: 20px;
+      border-radius: 24px;
+      background: var(--text);
+      color: #fffaf4;
+    }
+
+    .quote-box p {
+      color: rgba(255, 250, 244, 0.84);
+      font-size: 0.98rem;
+    }
+
+    .quote-box strong {
+      display: block;
+      margin-bottom: 8px;
+      font-family: "Oranienbaum", "Times New Roman", Georgia, serif;
+      font-size: 1.35rem;
+      line-height: 1.15;
+    }
+
+    .price-grid {
+      display: grid;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .price-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.66);
+      border: 1px solid rgba(45, 36, 31, 0.1);
+      overflow: hidden;
+    }
+
+    .price-card.featured {
+      background: var(--text);
+      color: #fffaf4;
+      border-color: var(--text);
+      box-shadow: var(--shadow);
+    }
+
+    .price-card.featured p,
+    .price-card.featured li,
+    .price-card.featured .price-note {
+      color: rgba(255, 250, 244, 0.78);
+    }
+
+    .price-card.featured .price {
+      color: #fffaf4;
+    }
+
+    .price-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+
+
+display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(198, 156, 114, 0.16);
+      color: var(--accent-dark);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .featured .tag {
+      background: rgba(255, 250, 244, 0.12);
+      color: #f3d8bd;
+    }
+
+    .price {
+      margin: 12px 0 4px;
+      font-family: "Oranienbaum", "Times New Roman", Georgia, serif;
+      font-size: 2.25rem;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .price-note {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .price-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .price-card li {
+      position: relative;
+      padding-left: 24px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .price-card li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .price-card .btn {
+      margin-top: 22px;
+      width: 100%;
+    }
+
+    .testimonials {
+      background:
+        linear-gradient(180deg, rgba(45, 36, 31, 0.04), transparent),
+        rgba(239, 225, 208, 0.5);
+    }
+
+    .testimonial-grid {
+      display: grid;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .testimonial-card {
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(255, 250, 244, 0.82);
+      border: 1px solid rgba(45, 36, 31, 0.09);
+    }
+
+    .testimonial-card blockquote {
+      margin: 0;
+      color: #4d4038;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    .testimonial-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--text);
+      color: #fffaf4;
+      font-weight: 800;
+    }
+
+    .testimonial-meta strong {
+      display: block;
+      font-size: 0.94rem;
+    }
+
+    .testimonial-meta span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .template-label {
+      display: inline-flex;
+      margin-bottom: 14px;
+      color: var(--accent-dark);
+      font-size: 0.74rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .faq-grid {
+      display: grid;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .faq-aside {
+      padding: 22px;
+      border-radius: 26px;
+      background: var(--text);
+      color: #fffaf4;
+    }
+
+    .faq-aside p {
+      margin-top: 10px;
+      color: rgba(255, 250, 244, 0.78);
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    details {
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.66);
+      border: 1px solid rgba(45, 36, 31, 0.1);
+      overflow: hidden;
+    }
+
+    summary {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 18px;
+      cursor: pointer;
+      list-style: none;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(198, 156, 114, 0.16);
+      color: var(--accent-dark);
+      flex: 0 0 auto;
+      font-size: 1.1rem;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      padding: 0 18px 18px;
+      font-size: 0.96rem;
+    }
+
+    .visual {
+      background: rgba(255, 250, 244, 0.68);
+      border-top: 1px solid rgba(45, 36, 31, 0.08);
+      border-bottom: 1px solid rgba(45, 36, 31, 0.08);
+    }
+
+    .visual-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+
+.visual-card {
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid rgba(45, 36, 31, 0.1);
+    }
+
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .swatch {
+      min-height: 86px;
+      border-radius: 18px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      border: 1px solid rgba(45, 36, 31, 0.09);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .swatch span {
+      display: block;
+      opacity: 0.72;
+      font-weight: 600;
+    }
+
+    .name-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .name-item {
+      padding: 16px;
+      border-radius: 18px;
+      background: rgba(248, 241, 232, 0.72);
+      border: 1px solid rgba(45, 36, 31, 0.08);
+    }
+
+    .name-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .name-item span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .final {
+      padding: 70px 0 38px;
+    }
+
+    .final-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 34px;
+      padding: 30px 22px;
+      background: var(--text);
+      color: #fffaf4;
+      box-shadow: var(--shadow);
+    }
+
+    .final-card::after {
+      content: "";
+      position: absolute;
+      right: -70px;
+      bottom: -90px;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      background: rgba(198, 156, 114, 0.32);
+      filter: blur(4px);
+    }
+
+    .final-card h2 {
+      position: relative;
+      z-index: 1;
+      color: #fffaf4;
+    }
+
+    .final-card p {
+      position: relative;
+      z-index: 1;
+      margin-top: 16px;
+      max-width: 680px;
+      color: rgba(255, 250, 244, 0.78);
+    }
+
+    .final-actions {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .final .btn-primary {
+      background: #fffaf4;
+      color: var(--text);
+      box-shadow: none;
+    }
+
+    .final .btn-secondary {
+      background: transparent;
+      color: #fffaf4;
+      border-color: rgba(255, 250, 244, 0.22);
+    }
+
+    footer {
+      padding: 24px 0 28px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .footer-row {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-top: 1px solid rgba(45, 36, 31, 0.1);
+      padding-top: 18px;
+    }
+
+    .sticky-cta {
+      position: fixed;
+      left: 12px;
+      right: 12px;
+      bottom: calc(12px + env(safe-area-inset-bottom));
+      z-index: 80;
+      min-height: 56px;
+      border-radius: 999px;
+      box-shadow: 0 18px 42px rgba(45, 36, 31, 0.28);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+
+      .btn:hover {
+        transform: none;
+      }
+    }
+
+    @media (min-width: 640px) {
+      body {
+        padding-bottom: 94px;
+      }
+
+      .container {
+        width: min(100% - 48px, var(--container));
+      }
+
+      .logo span:last-child {
+        display: inline;
+      }
+
+      .hero {
+        padding: 64px 0 78px;
+      }
+
+      .hero-actions,
+      .final-actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .proof-strip {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .pain-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .price-card {
+        padding: 26px;
+      }
+
+      .swatches {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+
+      section {
+        padding: 92px 0;
+      }
+
+.menu-button,
+      .mobile-nav,
+      .sticky-cta {
+        display: none;
+      }
+
+      .desktop-nav {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .desktop-nav a:not(.btn) {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 12px;
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .desktop-nav a:not(.btn):hover {
+        background: rgba(255, 255, 255, 0.55);
+        color: var(--text);
+      }
+
+      .hero-grid {
+        grid-template-columns: 1.05fr 0.75fr;
+        gap: 42px;
+      }
+
+      .hero-card {
+        min-height: 540px;
+      }
+
+      .hero-card img {
+        height: 540px;
+      }
+
+      .section-head.center {
+        text-align: center;
+        margin-inline: auto;
+      }
+
+      .pain-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .pain-card:nth-child(2),
+      .pain-card:nth-child(4) {
+        transform: translateY(26px);
+      }
+
+      .method-wrap,
+      .about-grid,
+      .faq-grid,
+      .visual-grid {
+        grid-template-columns: 0.92fr 1.08fr;
+      }
+
+      .about-grid {
+        grid-template-columns: 0.82fr 1.18fr;
+      }
+
+      .price-grid {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: stretch;
+      }
+
+      .testimonial-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .final-card {
+        padding: 54px;
+      }
+
+      .footer-row {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .container {
+        width: min(100% - 72px, var(--container));
+      }
+
+      .hero {
+        padding: 82px 0 92px;
+      }
+
+      .hero-grid {
+        gap: 70px;
+      }
+
+      .lead {
+        font-size: 1.12rem;
+      }
+
+      .method-photo img {
+        height: 520px;
+      }
+
+      .about-photo img {
+        height: 560px;
+      }
+
+      .visual-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Главная навигация">
+        <a class="logo" href="#top" aria-label="На первый экран">
+          <span class="logo-mark">AM</span>
+          <span>Английский за кофе</span>
+        </a>
+
+        <div class="desktop-nav" aria-label="Разделы сайта">
+          <a href="#pain">Знакомо?</a>
+          <a href="#method">Подход</a>
+          <a href="#about">Обо мне</a>
+          <a href="#prices">Цены</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-primary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">Написать Александре</a>
+        </div>
+
+        <button class="menu-button" id="menuButton" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileNav">
+          <i data-lucide="menu"></i>
+        </button>
+      </nav>
+
+      <div class="mobile-nav" id="mobileNav" hidden>
+        <a href="#pain">Знакомо ли вам это?</a>
+        <a href="#method">Как проходят уроки</a>
+        <a href="#about">Обо мне</a>
+        <a href="#prices">Форматы и цены</a>
+        <a href="#faq">Частые вопросы</a>
+        <a href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">Написать в Telegram</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Онлайн-уроки 1-на-1</p>
+            <h1>Английский, который не страшно учить</h1>
+            <p class="lead">
+              Индивидуальные уроки в уютной атмосфере: начните говорить свободнее, ощущая поддержку на каждом этапе — без стыда, спешки и зубрёжки.
+            </p>
+
+
+<div class="hero-actions">
+              <a class="btn btn-primary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">
+                Написать Александре
+                <i data-lucide="send"></i>
+              </a>
+              <a class="btn btn-secondary" href="#prices">Посмотреть форматы</a>
+            </div>
+
+            <div class="hero-note" aria-label="Коротко о занятиях">
+              <span class="pill"><i data-lucide="coffee"></i> За чашкой кофе ☕</span>
+              <span class="pill"><i data-lucide="video"></i> VooV</span>
+              <span class="pill">от 700 ₽ за урок</span>
+            </div>
+          </div>
+
+          <div class="hero-card reveal" aria-label="Визуальный образ уютного урока">
+            <img src="https://eu.cdn.gemera-ai.com/image/gpt-file-storage/image/e8e25c72_368196507_1782150120_a0860fd19680161ad84f475d6a16e288.png" alt="Фотография Александры Майданенко в спокойной домашней атмосфере" />
+            <div class="hero-card-caption">
+              <strong>Можно говорить медленно. Можно ошибаться.</strong>
+              <span>Главное — наконец почувствовать, что английский вам по силам.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="proof">
+      <div class="container">
+        <div class="proof-strip reveal" aria-label="Главные принципы занятий">
+          <div class="proof-item">
+            <i data-lucide="user-round"></i>
+            <div>
+              <strong>Только индивидуально</strong>
+              <span>в вашем темпе и под ваши цели</span>
+            </div>
+          </div>
+          <div class="proof-item">
+            <i data-lucide="messages-square"></i>
+            <div>
+              <strong>До 80% урока — разговор</strong>
+              <span>живые темы вместо сухих упражнений</span>
+            </div>
+          </div>
+          <div class="proof-item">
+            <i data-lucide="heart-handshake"></i>
+            <div>
+              <strong>Безопасная атмосфера</strong>
+              <span>ошибки разбираем спокойно и бережно</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="pain">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Знакомо ли вам это?</p>
+          <h2>Учили годами, но молчите?</h2>
+          <p class="lead">
+            Часто проблема не в «плохой памяти» и не в возрасте. Просто раньше английский был связан с напряжением, оценками и страхом сказать неправильно.
+          </p>
+        </div>
+
+        <div class="pain-grid">
+          <article class="pain-card reveal">
+            <span class="number">01</span>
+            <h3>Голос будто становится чужим</h3>
+            <p>Вы знаете фразу, но в момент разговора всё сжимается — и хочется перейти на русский.</p>
+          </article>
+
+          <article class="pain-card reveal">
+            <span class="number">02</span>
+            <h3>Ошибки кажутся чем-то стыдным</h3>
+            <p>Хотя на самом деле ошибки — обычная часть речи, а не доказательство, что «я не способна».</p>
+          </article>
+
+          <article class="pain-card reveal">
+            <span class="number">03</span>
+            <h3>Слова есть, разговора нет</h3>
+            <p>Вы учите списки, проходите приложения, но в реальной ситуации нужные слова исчезают.</p>
+          </article>
+
+          <article class="pain-card reveal">
+            <span class="number">04</span>
+            <h3>Учебники быстро утомляют</h3>
+            <p>Когда темы далеки от жизни, английский снова превращается в обязанность, а не в удовольствие.</p>
+          </article>
+        </div>
+
+        <p class="reassurance reveal">
+          Здесь не нужно «собраться и перестать бояться». Мы постепенно создаём опыт, где говорить можно спокойно.
+        </p>
+      </div>
+    </section>
+
+<section id="method">
+      <div class="container">
+        <div class="method-wrap">
+          <div class="method-photo reveal">
+            <img src="https://eu.cdn.gemera-ai.com/image/gpt-file-storage/image/75ccaa21_368196507_1782150117_bd058874633f4550d1f2096bd4ae0267.png" alt="Открытый блокнот, ручка и чашка кофе на спокойном рабочем столе" />
+          </div>
+
+          <div class="method-copy reveal">
+            <p class="eyebrow">Как у меня всё устроено</p>
+            <h2>Ваше спокойствие — часть методики</h2>
+            <p class="lead">
+              Уроки проходят онлайн 1-на-1 на платформе VooV. Мы берём темы из вашей жизни: путешествия, работа, фильмы, бытовые ситуации, разговоры «для себя» — и учимся говорить без внутренней дрожи.
+            </p>
+
+            <div class="method-list">
+              <div class="method-item">
+                <span class="icon-badge"><i data-lucide="cup-soda"></i></span>
+                <div>
+                  <h3>Начинаем мягко</h3>
+                  <p>Несколько минут на настрой, короткий разговор, понятная цель урока — без ощущения экзамена.</p>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <span class="icon-badge"><i data-lucide="message-circle"></i></span>
+                <div>
+                  <h3>Много живой речи</h3>
+                  <p>Около 80% времени вы говорите: простыми фразами, с подсказками, в комфортном темпе.</p>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <span class="icon-badge"><i data-lucide="book-open-check"></i></span>
+                <div>
+                  <h3>Грамматика без перегруза</h3>
+                  <p>Разбираем только то, что помогает вам выразить мысль сейчас, а не «всё правило целиком».</p>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <span class="icon-badge"><i data-lucide="leaf"></i></span>
+                <div>
+                  <h3>Домашние задания — по силам</h3>
+                  <p>Без обязаловки на три часа. Если хотите практику между уроками — дам короткое, живое задание.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <img src="https://eu.cdn.gemera-ai.com/image/gpt-file-storage/image/e8e25c72_368196507_1782150120_a0860fd19680161ad84f475d6a16e288.png" alt="Женщина улыбается в спокойной домашней атмосфере" />
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="eyebrow">Обо мне</p>
+            <h2>Давайте знакомиться</h2>
+            <p class="lead">
+              Меня зовут Александра Майданенко. Я преподаю английский взрослым и особенно люблю работать с теми, кто давно хочет заговорить, но всё время чувствует напряжение: «а вдруг скажу глупо?», «а если меня не поймут?».
+            </p>
+            <br />
+            <p>
+              На моих уроках можно забыть слово, попросить повторить, начать фразу заново и посмеяться над неловким моментом. Я не поправляю резко и не тороплю. Мы аккуратно собираем уверенность — урок за уроком.
+            </p>
+
+            <div class="quote-box">
+              <strong>«Мне важно, чтобы английский перестал быть проверкой на идеальность»</strong>
+              <p>
+                Он может быть обычной частью жизни: тёплой, понятной, иногда смешной — как разговор за чашкой кофе.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices">
+      <div class="container">
+        <div class="section-head center reveal">
+
+<p class="eyebrow">Форматы и цены</p>
+          <h2>Выберите комфортный ритм</h2>
+          <p class="lead">
+            Все занятия проходят онлайн 1-на-1 в VooV. Формат подбираем после короткого знакомства: по цели, уровню и тому, сколько времени вы готовы уделять английскому.
+          </p>
+        </div>
+
+        <div class="price-grid">
+          <article class="price-card reveal">
+            <div class="price-top">
+              <h3>Ознакомительный</h3>
+              <span class="tag">мягкий старт</span>
+            </div>
+            <p>Чтобы познакомиться, понять ваш уровень и спокойно попробовать формат.</p>
+            <div class="price">700 ₽</div>
+            <div class="price-note">короткая встреча онлайн</div>
+            <ul>
+              <li>разговор о целях без теста-стресса</li>
+              <li>мини-практика английской речи</li>
+              <li>рекомендация подходящего формата</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">Спросить про старт</a>
+          </article>
+
+          <article class="price-card featured reveal">
+            <div class="price-top">
+              <h3>Базовый</h3>
+              <span class="tag">чаще выбирают</span>
+            </div>
+            <p>Регулярный урок для спокойного продвижения без перегруза и гонки.</p>
+            <div class="price">1100 ₽</div>
+            <div class="price-note">индивидуальный урок 1-на-1</div>
+            <ul>
+              <li>разговорная практика по вашим темам</li>
+              <li>лексика, которую реально хочется использовать</li>
+              <li>бережная коррекция ошибок по ходу речи</li>
+              <li>небольшое задание по желанию</li>
+            </ul>
+            <a class="btn btn-primary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">Написать Александре</a>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-top">
+              <h3>Расширенный</h3>
+              <span class="tag">глубже</span>
+            </div>
+            <p>Когда хочется больше практики: перед поездкой, собеседованием или важным этапом.</p>
+            <div class="price">1500 ₽</div>
+            <div class="price-note">расширенный урок / пакет</div>
+            <ul>
+              <li>больше времени на диалоги и ситуации</li>
+              <li>разбор ваших фраз, писем или сценариев</li>
+              <li>план самостоятельной практики между уроками</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">Обсудить формат</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Тёплые слова учениц</h2>
+          <p class="lead">
+            Ниже — аккуратные шаблоны-заглушки для будущих отзывов. Их можно заменить реальными историями учениц, когда сайт будет готов к публикации.
+          </p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <span class="template-label">Шаблон отзыва 01</span>
+            <blockquote>
+              «До занятий я понимала английский глазами, но в разговоре будто замирала. На уроках стало спокойно ошибаться, переспрашивать и пробовать ещё раз. Впервые появилось ощущение: я правда могу говорить».
+            </blockquote>
+            <div class="testimonial-meta">
+              <div class="avatar">И</div>
+              <div>
+                <strong>[Имя ученицы]</strong>
+                <span>цель: путешествия</span>
+              </div>
+            </div>
+          </article>
+
+<article class="testimonial-card reveal">
+            <span class="template-label">Шаблон отзыва 02</span>
+            <blockquote>
+              «Мне очень подошёл темп. Без давления, без “вы должны были выучить”. Мы много разговариваем на обычные темы, и английский перестал быть чем-то школьным и неприятным».
+            </blockquote>
+            <div class="testimonial-meta">
+              <div class="avatar">А</div>
+              <div>
+                <strong>[Имя ученицы]</strong>
+                <span>цель: говорить для себя</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <span class="template-label">Шаблон отзыва 03</span>
+            <blockquote>
+              «Больше всего ценно, что меня не перебивают резко. Александра помогает сформулировать мысль, мягко поправляет и объясняет так, что не хочется закрыть ноутбук после урока».
+            </blockquote>
+            <div class="testimonial-meta">
+              <div class="avatar">М</div>
+              <div>
+                <strong>[Имя ученицы]</strong>
+                <span>цель: работа и переписка</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="faq-grid">
+          <aside class="faq-aside reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Частые вопросы</h2>
+            <p>
+              Если внутри уже есть «неудобно спросить» — спросите. На английском мы тоже начнём с простого и человеческого.
+            </p>
+          </aside>
+
+          <div class="faq-list reveal">
+            <details open>
+              <summary>Как проходит урок?</summary>
+              <p>
+                Мы встречаемся онлайн в VooV. В начале коротко настраиваемся и выбираем фокус урока, затем много говорим: по теме, ситуации или вашему запросу. Грамматику и лексику разбираем прямо в контексте разговора.
+              </p>
+            </details>
+
+            <details>
+              <summary>Нужно ли готовиться заранее?</summary>
+              <p>
+                Нет, специальная подготовка не нужна. Если у вас есть силы и желание, я могу дать маленькое задание: посмотреть короткое видео, выписать 5 фраз или ответить на пару вопросов. Но это не будет «домашкой ради домашки».
+              </p>
+            </details>
+
+            <details>
+              <summary>Что такое VooV?</summary>
+              <p>
+                VooV — платформа для видеовстреч, похожая на Zoom. Перед уроком я отправлю ссылку, вы просто перейдёте по ней. Если будет нужно, помогу подключиться без спешки.
+              </p>
+            </details>
+
+            <details>
+              <summary>Можно ли заниматься с нуля?</summary>
+              <p>
+                Да, можно. Мы начнём с самых базовых фраз и ситуаций, но сразу будем учиться говорить, а не только читать правила. Темп будет таким, чтобы вам было понятно и спокойно.
+              </p>
+            </details>
+
+            <details>
+              <summary>А если я стесняюсь говорить?</summary>
+              <p>
+                Это очень частая история. Мы не будем заставлять вас «просто говорить». Сначала появятся короткие безопасные фразы, потом — маленькие диалоги, затем больше свободы. Стеснение уходит постепенно, когда есть поддержка.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visual" id="visual">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Рекомендации по визуалу</p>
+          <h2>Тёплый сайт без суеты</h2>
+          <p class="lead">
+            Для этого лендинга лучше работает эстетика «английский за чашкой кофе»: много воздуха, мягкий свет, фактуры бумаги, книги, пар от напитка, уютное рабочее место.
+          </p>
+        </div>
+
+
+<div class="visual-grid">
+          <article class="visual-card reveal">
+            <h3>Цвета и шрифты</h3>
+            <p>
+              Основа — молочный и тёплый бежевый, акцент — приглушённая карамель. Заголовки можно оставить антиквенными, основный текст — чистым гротеском.
+            </p>
+
+            <div class="swatches" aria-label="Палитра сайта">
+              <div class="swatch" style="background:#f8f1e8;color:#2d241f;">#F8F1E8 <span>молочный фон</span></div>
+              <div class="swatch" style="background:#c69c72;color:#2d241f;">#C69C72 <span>карамель</span></div>
+              <div class="swatch" style="background:#2d241f;color:#fffaf4;">#2D241F <span>эспрессо</span></div>
+              <div class="swatch" style="background:#fffaf4;color:#2d241f;">#FFFAF4 <span>тёплый белый</span></div>
+            </div>
+          </article>
+
+          <article class="visual-card reveal">
+            <h3>3 варианта названия и слогана</h3>
+            <div class="name-list">
+              <div class="name-item">
+                <strong>Maydanenko English</strong>
+                <span>Комфортный английский с заботой о вас</span>
+              </div>
+              <div class="name-item">
+                <strong>Coffee & English</strong>
+                <span>Язык, который приносит удовольствие, а не стресс</span>
+              </div>
+              <div class="name-item">
+                <strong>Soft Language</strong>
+                <span>Ваш бережный путь к свободной речи</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" id="contact">
+      <div class="container">
+        <div class="final-card reveal">
+          <h2>Готовы попробовать спокойно?</h2>
+          <p>
+            Напишите Александре в Telegram. Можно одним сообщением: «Здравствуйте, хочу попробовать английский». Дальше я задам пару бережных вопросов и предложу удобный формат.
+          </p>
+
+          <div class="final-actions">
+            <a class="btn btn-primary" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">
+              Написать в Telegram
+              <i data-lucide="send"></i>
+            </a>
+            <a class="btn btn-secondary" href="#faq">Сначала посмотреть вопросы</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-row">
+        <span>© Александра Майданенко — индивидуальный английский онлайн</span>
+        <a href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">@Aleksandra_maydanenko</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="btn btn-primary sticky-cta" href="https://t.me/Aleksandra_maydanenko" target="_blank" rel="noopener">
+    Написать Александре
+    <i data-lucide="send"></i>
+  </a>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>
+    lucide.createIcons();
+
+    const menuButton = document.getElementById('menuButton');
+    const mobileNav = document.getElementById('mobileNav');
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      mobileNav.hidden = isOpen;
+      menuButton.innerHTML = isOpen ? '<i data-lucide="menu"></i>' : '<i data-lucide="x"></i>';
+      lucide.createIcons();
+    });
+
+    mobileNav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        menuButton.setAttribute('aria-expanded', 'false');
+        mobileNav.hidden = true;
+        menuButton.innerHTML = '<i data-lucide="menu"></i>';
+        lucide.createIcons();
+      });
+    });
+
+    const revealItems = document.querySelectorAll('.reveal');
+
+
+const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    revealItems.forEach((item) => observer.observe(item));
+  </script>
+</body>
+</html>
